@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Crypto Wallet</string>
+    <string name="crypto_wallet">Crypto Wallet</string>
+    <string name="logo">Logo</string>
+    <string name="please_sign_in_to_continue">Please sign in to continue</string>
+    <string name="email">Email</string>
+    <string name="you_example_com">you@example.com</string>
+    <string name="send_email_otp">Send Email OTP</string>
+    <string name="check_your_email">Check your email</string>
+    <string name="we_sent_a_verification_code_to">We sent a verification code to</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="didn_t_receive_the_code">Didn\'t receive the code?</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="wallet_details">Wallet Details</string>
+    <string name="address">Address</string>
+    <string name="current_network">Current Network</string>
+    <string name="balance">Balance</string>
+    <string name="copy_address">Copy Address</string>
+    <string name="wallet_address">wallet address</string>
+    <string name="address_copied_to_clipboard">Address copied to clipboard</string>
+    <string name="send_transaction">Send Transaction</string>
+    <string name="logout">Logout</string>
+    <string name="loading">Loading…</string>
+    <string name="recipient_address">Recipient Address</string>
+    <string name="amount_eth">Amount (ETH)</string>
+    <string name="transaction_success">Transaction Success!</string>
+    <string name="transaction_hash">Transaction Hash:</string>
+    <string name="view_on_etherscan">View on Etherscan ↗</string>
+    <string name="back">Back</string>
+</resources>
