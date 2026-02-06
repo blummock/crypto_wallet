@@ -8,7 +8,20 @@
 The project follows **MVVM (Model-View-ViewModel) architecture** with **Unidirectional Data Flow** and **Repository**:
 It was simplified - no **domain** and **data** layers, no **use cases**. But it's still scalable, testable and maintainable for the future growth.
 On the next steps it allows to add abstract repositories and use cases, if it's necessary. 
-Now it has presentation is separated by screens.
+Now it has presentation layer separated by screens and:
+- ✅ Jetpack Compose UI
+- ✅ MVVM architecture
+- ✅ Kotlin Coroutines + StateFlow
+- ✅ Dynamic SDK integration
+- ✅ Email OTP authentication
+- ✅ Display balance on Sepolia testnet
+- ✅ Send transaction functionality
+- ✅ Proper error handling
+- ✅ Loading states
+- ✅ Hilt DI
+- ✅ Material Design 3
+- ✅ Pull-to-refresh on Wallet Details
+- ✅ Input validation
 
 
 ```bash
