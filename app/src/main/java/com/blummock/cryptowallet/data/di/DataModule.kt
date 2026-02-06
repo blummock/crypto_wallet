@@ -11,7 +11,7 @@ import javax.inject.Named
 
 @Module
 @InstallIn(SingletonComponent::class)
-internal object DataStoreModule {
+internal object DataModule {
 
     @Provides
     fun provideDynamicSdk() = DynamicSDK.getInstance()
