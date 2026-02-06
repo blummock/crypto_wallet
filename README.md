@@ -5,7 +5,7 @@
 
 ## 🏗️ Project Architecture
 
-The project follows **MVVM (Model-View-ViewModel) architecture** with **Unidirectional Data Flow**:
+The project follows **MVVM (Model-View-ViewModel) architecture** with **Unidirectional Data Flow** and **Repository**:
 It was simplified - no **domain** and **data** layers, no **use cases**. But it's still scalable, testable and maintainable for the future growth.
 On the next steps it allows to add abstract repositories and use cases, if it's necessary. 
 Now it has presentation is separated by screens.
@@ -15,7 +15,7 @@ Now it has presentation is separated by screens.
 app/
 │── data/
 │   ├── di/
-│   │   ├── DatsModule.kt
+│   │   ├── DataModule.kt
 │   │
 │   ├── AuthWalletRepository.kt
 │   ├── AuthRepository.kt
@@ -55,7 +55,16 @@ cd CryptoWallet
 
 ### 🔧 Running the Project
 
-2️⃣ **Build & Run**
+Create and add value into root file **"local.properties"**
+```bash
+env_id=your_enviroment_id
+```
+or change into app/build.gradle.kts
+```bash
+buildConfigField("String", "ENVIRONMENT_ID", "your_enviroment_id")
+```
+
+ **Build & Run**
 ```bash
 ./gradlew clean build
 ```
@@ -64,9 +73,9 @@ or directly run from **Android Studio**.
 ---
 ### Screenshots
 
-<img width="540" height="1110" alt="Screenshot_1770364834" src="https://github.com/user-attachments/assets/cfe3ff22-ba8d-4657-b618-21f6952e59c9" />
-<img width="540" height="1110" alt="Screenshot_1770364604" src="https://github.com/user-attachments/assets/c61c884f-468d-4e99-adf6-72f6fd0ee073" />
-<img width="540" height="1110" alt="Screenshot_1770379636" src="https://github.com/user-attachments/assets/a8b8da21-3844-47a5-a7aa-ab150291208d" />
+<img width="220" height="550" alt="Screenshot_1770364834" src="https://github.com/user-attachments/assets/cfe3ff22-ba8d-4657-b618-21f6952e59c9" />
+<img width="220" height="550" alt="Screenshot_1770364604" src="https://github.com/user-attachments/assets/c61c884f-468d-4e99-adf6-72f6fd0ee073" />
+<img width="220" height="550" alt="Screenshot_1770379636" src="https://github.com/user-attachments/assets/a8b8da21-3844-47a5-a7aa-ab150291208d" />
 
 ### Assumptions 
 It shows common way how to organize simple functions with not overcomplicated 
