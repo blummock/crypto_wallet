@@ -58,7 +58,7 @@ app/
 Clone this repository:
 ```bash
 git clone https://github.com/yourname/crypto_wallet.git
-cd CryptoWallet
+cd crypto_wallet
 ```
 
 ### 🏗 Prerequisites
@@ -74,7 +74,7 @@ env_id=your_enviroment_id
 ```
 or change into app/build.gradle.kts
 ```bash
-buildConfigField("String", "ENVIRONMENT_ID", "your_enviroment_id")
+buildConfigField("String", "ENVIRONMENT_ID", "your_environment_id")
 ```
 
  **Build & Run**
